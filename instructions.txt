@@ -1,0 +1,19 @@
+Training Graphs
+
+DynamicGraph = [graph1, graph2, graph3,..., graphN]
+    
+    graph -> node1, node2, weight
+
+DynamicGraph -> Directory
+DynamicGraph[graphi,graphi+1,...,graphN] -> graphi.txt, graphi+1.txt,..., graphN.txt,
+
+
+Code Greedy Algorithm for Dynamic Influence Maximization.
+Code Dynamic Independent Cascade Model for calculating Influence Spread in Greedy Algorithm.
+
+Run Greedy Algorithm on the data and generate this file.
+influence_label.csv -> graphi, seed set, influence
+
+Now Code a GNN Model that trains on this data and provide this influence_label.csv for supervised training.
+
+Now The Greedy Algorithm should calculate the influence spread through the GNN output.
